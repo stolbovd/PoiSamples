@@ -1,2 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="49" uniqueCount="27"><si><t>continent</t></si><si><t>city</t></si><si><t>name</t></si><si><t>card</t></si><si><t>balance</t></si><si><t>Europe</t></si><si><t>Rome</t></si><si><t>Adriano</t></si><si><t>Mastercard</t></si><si><t>Paris</t></si><si><t>Kate</t></si><si><t>Visa</t></si><si><t>Berline</t></si><si><t>Helen</t></si><si><t>Alex</t></si><si><t>Athens</t></si><si><t>Dmitry</t></si><si><t>Asia</t></si><si><t>Tomsk</t></si><si><t>Serge</t></si><si><t>Africa</t></si><si><t>Cairo</t></si><si><t>Mahmud</t></si><si><t>Column Labels</t></si><si><t>Grand Total</t></si><si><t>Row Labels</t></si><si><t>Sum of balance</t></si></sst>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="49" uniqueCount="27">
+	<si>
+		<t>continent</t>
+	</si>
+	<si>
+		<t>city</t>
+	</si>
+	<si>
+		<t>name</t>
+	</si>
+	<si>
+		<t>card</t>
+	</si>
+	<si>
+		<t>balance</t>
+	</si>
+	<si>
+		<t>Europe</t>
+	</si>
+	<si>
+		<t>Rome</t>
+	</si>
+	<si>
+		<t>Adriano</t>
+	</si>
+	<si>
+		<t>Mastercard</t>
+	</si>
+	<si>
+		<t>Paris</t>
+	</si>
+	<si>
+		<t>Kate</t>
+	</si>
+	<si>
+		<t>Visa</t>
+	</si>
+	<si>
+		<t>Berline</t>
+	</si>
+	<si>
+		<t>Helen</t>
+	</si>
+	<si>
+		<t>Alex</t>
+	</si>
+	<si>
+		<t>Athens</t>
+	</si>
+	<si>
+		<t>Dmitry</t>
+	</si>
+	<si>
+		<t>Asia</t>
+	</si>
+	<si>
+		<t>Tomsk</t>
+	</si>
+	<si>
+		<t>Serge</t>
+	</si>
+	<si>
+		<t>Africa</t>
+	</si>
+	<si>
+		<t>Cairo</t>
+	</si>
+	<si>
+		<t>Mahmud</t>
+	</si>
+	<si>
+		<t>Column Labels</t>
+	</si>
+	<si>
+		<t>Grand Total</t>
+	</si>
+	<si>
+		<t>Row Labels</t>
+	</si>
+	<si>
+		<t>Sum of balance</t>
+	</si>
+</sst>

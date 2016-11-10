@@ -95,7 +95,7 @@
 		</i>
 	</colItems>
 	<dataFields count="1">
-		<dataField name="Sum of balance" fld="4" baseField="0" baseItem="0"/>
+		<dataField name="Sum of balance" fld="4" baseField="0" baseItem="0" numFmtId="4"/>
 	</dataFields>
 	<pivotTableStyleInfo name="PivotStyleMedium9" showRowHeaders="1" showColHeaders="1" showRowStripes="0" showColStripes="0" showLastColumn="1"/>
 	<extLst>
