@@ -4,12 +4,11 @@
                       itemPrintTitles="1" createdVersion="4" indent="0" outline="1" outlineData="1" multipleFieldFilters="0">
 	<location ref="G3:J14" firstHeaderRow="1" firstDataRow="2" firstDataCol="1"/>
 	<pivotFields count="5">
-		<pivotField axis="axisRow" showAll="0">
-			<items count="4">
+		<pivotField axis="axisRow" showAll="0" defaultSubtotal="0">
+			<items count="3">
 				<item x="2"/>
 				<item x="1"/>
 				<item x="0"/>
-				<item t="default"/>
 			</items>
 		</pivotField>
 		<pivotField axis="axisRow" showAll="0">
@@ -98,10 +97,10 @@
 		<dataField name="Sum of balance" fld="4" baseField="0" baseItem="0" numFmtId="164"/>
 	</dataFields>
 	<formats count="2">
-		<format dxfId="3">
+		<format dxfId="5">
 			<pivotArea grandRow="1" grandCol="1" outline="0" collapsedLevelsAreSubtotals="1" fieldPosition="0"/>
 		</format>
-		<format dxfId="0">
+		<format dxfId="2">
 			<pivotArea outline="0" fieldPosition="0">
 				<references count="1">
 					<reference field="4294967294" count="1">

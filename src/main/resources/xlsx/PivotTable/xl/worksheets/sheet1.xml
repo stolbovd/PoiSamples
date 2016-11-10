@@ -4,7 +4,7 @@
 	<dimension ref="A1:J14"/>
 	<sheetViews>
 		<sheetView tabSelected="1" workbookViewId="0">
-			<selection activeCell="C27" sqref="C27"/>
+			<selection activeCell="I9" sqref="I9"/>
 		</sheetView>
 	</sheetViews>
 	<sheetFormatPr baseColWidth="10" defaultRowHeight="16" x14ac:dyDescent="0.2"/>
@@ -120,13 +120,9 @@
 			<c r="G5" s="2" t="s">
 				<v>20</v>
 			</c>
-			<c r="H5" s="4">
-				<v>8923.34</v>
-			</c>
+			<c r="H5" s="4"/>
 			<c r="I5" s="4"/>
-			<c r="J5" s="4">
-				<v>8923.34</v>
-			</c>
+			<c r="J5" s="4"/>
 		</row>
 		<row r="6" spans="1:10" x14ac:dyDescent="0.2">
 			<c r="A6" t="s">
@@ -175,12 +171,8 @@
 				<v>17</v>
 			</c>
 			<c r="H7" s="4"/>
-			<c r="I7" s="4">
-				<v>2343.9</v>
-			</c>
-			<c r="J7" s="4">
-				<v>2343.9</v>
-			</c>
+			<c r="I7" s="4"/>
+			<c r="J7" s="4"/>
 		</row>
 		<row r="8" spans="1:10" x14ac:dyDescent="0.2">
 			<c r="A8" t="s">
@@ -213,15 +205,9 @@
 			<c r="G9" s="2" t="s">
 				<v>5</v>
 			</c>
-			<c r="H9" s="4">
-				<v>5166.59</v>
-			</c>
-			<c r="I9" s="4">
-				<v>17398.669999999998</v>
-			</c>
-			<c r="J9" s="4">
-				<v>22565.260000000002</v>
-			</c>
+			<c r="H9" s="4"/>
+			<c r="I9" s="4"/>
+			<c r="J9" s="4"/>
 		</row>
 		<row r="10" spans="1:10" x14ac:dyDescent="0.2">
 			<c r="G10" s="3" t="s">

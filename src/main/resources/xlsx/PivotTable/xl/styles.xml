@@ -46,7 +46,13 @@
 	<cellStyles count="1">
 		<cellStyle name="Normal" xfId="0" builtinId="0"/>
 	</cellStyles>
-	<dxfs count="4">
+	<dxfs count="6">
+		<dxf>
+			<numFmt numFmtId="164" formatCode="#\ ##?/?"/>
+		</dxf>
+		<dxf>
+			<numFmt numFmtId="164" formatCode="#\ ##?/?"/>
+		</dxf>
 		<dxf>
 			<numFmt numFmtId="164" formatCode="#\ ##?/?"/>
 		</dxf>
