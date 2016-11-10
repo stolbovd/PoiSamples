@@ -32,7 +32,7 @@
 	<cellStyleXfs count="1">
 		<xf numFmtId="0" fontId="0" fillId="0" borderId="0"/>
 	</cellStyleXfs>
-	<cellXfs count="5">
+	<cellXfs count="6">
 		<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/>
 		<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" pivotButton="1"/>
 		<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1">
@@ -42,25 +42,14 @@
 			<alignment horizontal="left" indent="1"/>
 		</xf>
 		<xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>
+		<xf numFmtId="14" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>
 	</cellXfs>
 	<cellStyles count="1">
 		<cellStyle name="Normal" xfId="0" builtinId="0"/>
 	</cellStyles>
-	<dxfs count="6">
+	<dxfs count="2">
 		<dxf>
 			<numFmt numFmtId="164" formatCode="#\ ##?/?"/>
-		</dxf>
-		<dxf>
-			<numFmt numFmtId="164" formatCode="#\ ##?/?"/>
-		</dxf>
-		<dxf>
-			<numFmt numFmtId="164" formatCode="#\ ##?/?"/>
-		</dxf>
-		<dxf>
-			<numFmt numFmtId="164" formatCode="#\ ##?/?"/>
-		</dxf>
-		<dxf>
-			<numFmt numFmtId="3" formatCode="#,##0"/>
 		</dxf>
 		<dxf>
 			<numFmt numFmtId="164" formatCode="#\ ##?/?"/>

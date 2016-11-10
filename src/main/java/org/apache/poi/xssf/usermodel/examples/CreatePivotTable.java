@@ -26,7 +26,6 @@ import org.apache.poi.ss.util.CellReference;
 import org.apache.poi.xssf.usermodel.XSSFPivotTable;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openxmlformats.schemas.spreadsheetml.x2006.main.*;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -51,9 +50,7 @@ public class CreatePivotTable {
 	//Configure the pivot table
 	//Use first column as row label
 	pivotTable.addRowLabel(0);
-	//Set the third column as filter
-	addColLabel(1);
-	//Sum up the second column
+	//Sum up the third column
 	pivotTable.addColumnLabel(DataConsolidateFunction.SUM, 2);
 	//Add filter on forth column
 	pivotTable.addReportFilter(3);
@@ -63,37 +60,6 @@ public class CreatePivotTable {
 	fileOut.close();
 	wb.close();
     }
-
-	public static void addColLabel(int columnIndex) {
-		AreaReference pivotArea = new AreaReference(pivotTable.getPivotCacheDefinition().getCTPivotCacheDefinition()
-				.getCacheSource().getWorksheetSource().getRef(), SpreadsheetVersion.EXCEL2007);
-		int lastRowIndex = pivotArea.getLastCell().getRow() - pivotArea.getFirstCell().getRow();
-		int lastColIndex = pivotArea.getLastCell().getCol() - pivotArea.getFirstCell().getCol();
-		if (columnIndex > lastColIndex)
-			throw new IndexOutOfBoundsException();
-
-		CTPivotFields pivotFields = pivotTable.getCTPivotTableDefinition().getPivotFields();
-		CTPivotField pivotField = CTPivotField.Factory.newInstance();
-		CTItems items = pivotField.addNewItems();
-
-		pivotField.setAxis(STAxis.AXIS_COL);
-		pivotField.setShowAll(false);
-		for (int i = 0; i <= lastRowIndex; i++) {
-			items.addNewItem().setT(STItemType.DEFAULT);
-		}
-		items.setCount(items.sizeOfItemArray());
-		pivotFields.setPivotFieldArray(columnIndex, pivotField);
-
-		CTColFields rowFields;
-		if (pivotTable.getCTPivotTableDefinition().getColFields() != null) {
-			rowFields = pivotTable.getCTPivotTableDefinition().getColFields();
-		} else {
-			rowFields = pivotTable.getCTPivotTableDefinition().addNewColFields();
-		}
-
-		rowFields.addNewField().setX(columnIndex);
-		rowFields.setCount(rowFields.sizeOfFieldArray());
-	}
 
     public static void setCellData(XSSFSheet sheet){
         Row row1 = sheet.createRow(0);
