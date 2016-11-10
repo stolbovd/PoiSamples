@@ -46,3 +46,5 @@ crashlytics-build.properties
 fabric.properties
 
 .gitignore
+~$*.xlsx
+/*.xlsx

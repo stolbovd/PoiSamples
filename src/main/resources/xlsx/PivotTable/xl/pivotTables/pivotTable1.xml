@@ -97,6 +97,11 @@
 	<dataFields count="1">
 		<dataField name="Sum of balance" fld="4" baseField="0" baseItem="0" numFmtId="4"/>
 	</dataFields>
+	<formats count="1">
+		<format dxfId="0">
+			<pivotArea grandRow="1" grandCol="1" outline="0" collapsedLevelsAreSubtotals="1" fieldPosition="0"/>
+		</format>
+	</formats>
 	<pivotTableStyleInfo name="PivotStyleMedium9" showRowHeaders="1" showColHeaders="1" showRowStripes="0" showColStripes="0" showLastColumn="1"/>
 	<extLst>
 		<ext uri="{962EF5D1-5CA2-4c93-8EF4-DBF5C05439D2}" xmlns:x14="http://schemas.microsoft.com/office/spreadsheetml/2009/9/main">
