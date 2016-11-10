@@ -95,11 +95,20 @@
 		</i>
 	</colItems>
 	<dataFields count="1">
-		<dataField name="Sum of balance" fld="4" baseField="0" baseItem="0" numFmtId="4"/>
+		<dataField name="Sum of balance" fld="4" baseField="0" baseItem="0" numFmtId="164"/>
 	</dataFields>
-	<formats count="1">
-		<format dxfId="0">
+	<formats count="2">
+		<format dxfId="3">
 			<pivotArea grandRow="1" grandCol="1" outline="0" collapsedLevelsAreSubtotals="1" fieldPosition="0"/>
+		</format>
+		<format dxfId="0">
+			<pivotArea outline="0" fieldPosition="0">
+				<references count="1">
+					<reference field="4294967294" count="1">
+						<x v="0"/>
+					</reference>
+				</references>
+			</pivotArea>
 		</format>
 	</formats>
 	<pivotTableStyleInfo name="PivotStyleMedium9" showRowHeaders="1" showColHeaders="1" showRowStripes="0" showColStripes="0" showLastColumn="1"/>

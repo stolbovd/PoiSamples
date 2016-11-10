@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x14ac"
             xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac">
+	<numFmts count="1">
+		<numFmt numFmtId="164" formatCode="#\ ##?/?"/>
+	</numFmts>
 	<fonts count="1" x14ac:knownFonts="1">
 		<font>
 			<sz val="12"/>
@@ -29,7 +32,7 @@
 	<cellStyleXfs count="1">
 		<xf numFmtId="0" fontId="0" fillId="0" borderId="0"/>
 	</cellStyleXfs>
-	<cellXfs count="6">
+	<cellXfs count="5">
 		<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/>
 		<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" pivotButton="1"/>
 		<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1">
@@ -38,15 +41,23 @@
 		<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1">
 			<alignment horizontal="left" indent="1"/>
 		</xf>
-		<xf numFmtId="4" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>
-		<xf numFmtId="3" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>
+		<xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>
 	</cellXfs>
 	<cellStyles count="1">
 		<cellStyle name="Normal" xfId="0" builtinId="0"/>
 	</cellStyles>
-	<dxfs count="1">
+	<dxfs count="4">
+		<dxf>
+			<numFmt numFmtId="164" formatCode="#\ ##?/?"/>
+		</dxf>
+		<dxf>
+			<numFmt numFmtId="164" formatCode="#\ ##?/?"/>
+		</dxf>
 		<dxf>
 			<numFmt numFmtId="3" formatCode="#,##0"/>
+		</dxf>
+		<dxf>
+			<numFmt numFmtId="164" formatCode="#\ ##?/?"/>
 		</dxf>
 	</dxfs>
 	<tableStyles count="0" defaultTableStyle="TableStyleMedium9" defaultPivotStyle="PivotStyleMedium7"/>
