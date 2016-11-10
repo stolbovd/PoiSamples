@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x14ac" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac">
-	<dimension ref="A1:E8"/>
+	<dimension ref="A1:J14"/>
 	<sheetViews>
 		<sheetView tabSelected="1" workbookViewId="0">
-			<selection activeCell="C5" sqref="C5"/>
+			<selection activeCell="D23" sqref="D23"/>
 		</sheetView>
 	</sheetViews>
 	<sheetFormatPr baseColWidth="10" defaultRowHeight="16" x14ac:dyDescent="0.2"/>
+	<cols>
+		<col min="7" max="7" width="13.5703125" customWidth="1"/>
+		<col min="8" max="8" width="14.7109375" bestFit="1" customWidth="1"/>
+		<col min="9" max="9" width="9" customWidth="1"/>
+		<col min="10" max="10" width="10" customWidth="1"/>
+	</cols>
 	<sheetData>
-		<row r="1" spans="1:5" x14ac:dyDescent="0.2">
+		<row r="1" spans="1:10" x14ac:dyDescent="0.2">
 			<c r="A1" t="s">
 				<v>0</v>
 			</c>
@@ -26,7 +32,7 @@
 				<v>4</v>
 			</c>
 		</row>
-		<row r="2" spans="1:5" x14ac:dyDescent="0.2">
+		<row r="2" spans="1:10" x14ac:dyDescent="0.2">
 			<c r="A2" t="s">
 				<v>5</v>
 			</c>
@@ -43,7 +49,7 @@
 				<v>812.14</v>
 			</c>
 		</row>
-		<row r="3" spans="1:5" x14ac:dyDescent="0.2">
+		<row r="3" spans="1:10" x14ac:dyDescent="0.2">
 			<c r="A3" t="s">
 				<v>5</v>
 			</c>
@@ -59,8 +65,14 @@
 			<c r="E3">
 				<v>1523.23</v>
 			</c>
+			<c r="G3" s="1" t="s">
+				<v>26</v>
+			</c>
+			<c r="H3" s="1" t="s">
+				<v>23</v>
+			</c>
 		</row>
-		<row r="4" spans="1:5" x14ac:dyDescent="0.2">
+		<row r="4" spans="1:10" x14ac:dyDescent="0.2">
 			<c r="A4" t="s">
 				<v>5</v>
 			</c>
@@ -76,8 +88,20 @@
 			<c r="E4">
 				<v>4354.45</v>
 			</c>
+			<c r="G4" s="1" t="s">
+				<v>25</v>
+			</c>
+			<c r="H4" t="s">
+				<v>8</v>
+			</c>
+			<c r="I4" t="s">
+				<v>11</v>
+			</c>
+			<c r="J4" t="s">
+				<v>24</v>
+			</c>
 		</row>
-		<row r="5" spans="1:5" x14ac:dyDescent="0.2">
+		<row r="5" spans="1:10" x14ac:dyDescent="0.2">
 			<c r="A5" t="s">
 				<v>5</v>
 			</c>
@@ -93,8 +117,18 @@
 			<c r="E5">
 				<v>8352.1200000000008</v>
 			</c>
+			<c r="G5" s="2" t="s">
+				<v>20</v>
+			</c>
+			<c r="H5" s="4">
+				<v>8923.34</v>
+			</c>
+			<c r="I5" s="4"/>
+			<c r="J5" s="4">
+				<v>8923.34</v>
+			</c>
 		</row>
-		<row r="6" spans="1:5" x14ac:dyDescent="0.2">
+		<row r="6" spans="1:10" x14ac:dyDescent="0.2">
 			<c r="A6" t="s">
 				<v>5</v>
 			</c>
@@ -110,8 +144,18 @@
 			<c r="E6">
 				<v>7523.32</v>
 			</c>
+			<c r="G6" s="3" t="s">
+				<v>21</v>
+			</c>
+			<c r="H6" s="4">
+				<v>8923.34</v>
+			</c>
+			<c r="I6" s="4"/>
+			<c r="J6" s="4">
+				<v>8923.34</v>
+			</c>
 		</row>
-		<row r="7" spans="1:5" x14ac:dyDescent="0.2">
+		<row r="7" spans="1:10" x14ac:dyDescent="0.2">
 			<c r="A7" t="s">
 				<v>17</v>
 			</c>
@@ -127,8 +171,18 @@
 			<c r="E7">
 				<v>2343.9</v>
 			</c>
+			<c r="G7" s="2" t="s">
+				<v>17</v>
+			</c>
+			<c r="H7" s="4"/>
+			<c r="I7" s="4">
+				<v>2343.9</v>
+			</c>
+			<c r="J7" s="4">
+				<v>2343.9</v>
+			</c>
 		</row>
-		<row r="8" spans="1:5" x14ac:dyDescent="0.2">
+		<row r="8" spans="1:10" x14ac:dyDescent="0.2">
 			<c r="A8" t="s">
 				<v>20</v>
 			</c>
@@ -144,10 +198,96 @@
 			<c r="E8">
 				<v>8923.34</v>
 			</c>
+			<c r="G8" s="3" t="s">
+				<v>18</v>
+			</c>
+			<c r="H8" s="4"/>
+			<c r="I8" s="4">
+				<v>2343.9</v>
+			</c>
+			<c r="J8" s="4">
+				<v>2343.9</v>
+			</c>
+		</row>
+		<row r="9" spans="1:10" x14ac:dyDescent="0.2">
+			<c r="G9" s="2" t="s">
+				<v>5</v>
+			</c>
+			<c r="H9" s="4">
+				<v>5166.59</v>
+			</c>
+			<c r="I9" s="4">
+				<v>17398.669999999998</v>
+			</c>
+			<c r="J9" s="4">
+				<v>22565.260000000002</v>
+			</c>
+		</row>
+		<row r="10" spans="1:10" x14ac:dyDescent="0.2">
+			<c r="G10" s="3" t="s">
+				<v>15</v>
+			</c>
+			<c r="H10" s="4"/>
+			<c r="I10" s="4">
+				<v>7523.32</v>
+			</c>
+			<c r="J10" s="4">
+				<v>7523.32</v>
+			</c>
+		</row>
+		<row r="11" spans="1:10" x14ac:dyDescent="0.2">
+			<c r="G11" s="3" t="s">
+				<v>12</v>
+			</c>
+			<c r="H11" s="4">
+				<v>4354.45</v>
+			</c>
+			<c r="I11" s="4"/>
+			<c r="J11" s="4">
+				<v>4354.45</v>
+			</c>
+		</row>
+		<row r="12" spans="1:10" x14ac:dyDescent="0.2">
+			<c r="G12" s="3" t="s">
+				<v>9</v>
+			</c>
+			<c r="H12" s="4"/>
+			<c r="I12" s="4">
+				<v>9875.35</v>
+			</c>
+			<c r="J12" s="4">
+				<v>9875.35</v>
+			</c>
+		</row>
+		<row r="13" spans="1:10" x14ac:dyDescent="0.2">
+			<c r="G13" s="3" t="s">
+				<v>6</v>
+			</c>
+			<c r="H13" s="4">
+				<v>812.14</v>
+			</c>
+			<c r="I13" s="4"/>
+			<c r="J13" s="4">
+				<v>812.14</v>
+			</c>
+		</row>
+		<row r="14" spans="1:10" x14ac:dyDescent="0.2">
+			<c r="G14" s="2" t="s">
+				<v>24</v>
+			</c>
+			<c r="H14" s="4">
+				<v>14089.93</v>
+			</c>
+			<c r="I14" s="4">
+				<v>19742.57</v>
+			</c>
+			<c r="J14" s="4">
+				<v>33832.5</v>
+			</c>
 		</row>
 	</sheetData>
 	<pageMargins left="0.7" right="0.7" top="0.75" bottom="0.75" header="0.3" footer="0.3"/>
 	<tableParts count="1">
-		<tablePart r:id="rId1"/>
+		<tablePart r:id="rId2"/>
 	</tableParts>
 </worksheet>

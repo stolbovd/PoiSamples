@@ -15,6 +15,9 @@
 		<sheet name="Sheet1" sheetId="1" r:id="rId1"/>
 	</sheets>
 	<calcPr calcId="150000" concurrentCalc="0"/>
+	<pivotCaches>
+		<pivotCache cacheId="20" r:id="rId2"/>
+	</pivotCaches>
 	<extLst>
 		<ext uri="{79F54976-1DA5-4618-B147-4CDE4B953A38}" xmlns:x14="http://schemas.microsoft.com/office/spreadsheetml/2009/9/main">
 			<x14:workbookPr defaultImageDpi="32767"/>

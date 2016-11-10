@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pivotCacheDefinition xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:id="rId1"
+                      refreshedBy="Дмитрий Столбов" refreshedDate="42684.387010416664" createdVersion="4" refreshedVersion="4" minRefreshableVersion="3" recordCount="7">
+	<cacheSource type="worksheet">
+		<worksheetSource name="Table1"/>
+	</cacheSource>
+	<cacheFields count="5">
+		<cacheField name="continent" numFmtId="0">
+			<sharedItems count="3">
+				<s v="Europe"/>
+				<s v="Asia"/>
+				<s v="Africa"/>
+			</sharedItems>
+		</cacheField>
+		<cacheField name="city" numFmtId="0">
+			<sharedItems count="6">
+				<s v="Rome"/>
+				<s v="Paris"/>
+				<s v="Berline"/>
+				<s v="Athens"/>
+				<s v="Tomsk"/>
+				<s v="Cairo"/>
+			</sharedItems>
+		</cacheField>
+		<cacheField name="name" numFmtId="0">
+			<sharedItems/>
+		</cacheField>
+		<cacheField name="card" numFmtId="0">
+			<sharedItems count="2">
+				<s v="Mastercard"/>
+				<s v="Visa"/>
+			</sharedItems>
+		</cacheField>
+		<cacheField name="balance" numFmtId="0">
+			<sharedItems containsSemiMixedTypes="0" containsString="0" containsNumber="1" minValue="812.14" maxValue="8923.34" count="7">
+				<n v="812.14"/>
+				<n v="1523.23"/>
+				<n v="4354.45"/>
+				<n v="8352.1200000000008"/>
+				<n v="7523.32"/>
+				<n v="2343.9"/>
+				<n v="8923.34"/>
+			</sharedItems>
+		</cacheField>
+	</cacheFields>
+	<extLst>
+		<ext uri="{725AE2AE-9491-48be-B2B4-4EB974FC3084}" xmlns:x14="http://schemas.microsoft.com/office/spreadsheetml/2009/9/main">
+			<x14:pivotCacheDefinition/>
+		</ext>
+	</extLst>
+</pivotCacheDefinition>
