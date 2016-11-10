@@ -1,0 +1,8 @@
+continent	city	name	card	balance
+Europe	Rome	Adriano	Mastercard	812,14
+Europe	Paris	Kate	Visa	1523,23
+Europe	Berline	Helen	Mastercard	4354,45
+Europe	Paris	Alex	Visa	8352,12
+Europe	Athens	Dmitry	Visa	7523,32
+Asia	Tomsk	Serge	Visa	2343,9
+Africa	Cairo	Mahmud	Mastercard	8923,34
