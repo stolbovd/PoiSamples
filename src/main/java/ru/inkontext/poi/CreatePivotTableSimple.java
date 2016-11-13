@@ -46,13 +46,13 @@ public class CreatePivotTableSimple {
 				new AreaReference("A1:C6", SpreadsheetVersion.EXCEL2007),
 				new CellReference("E3"));
 
-		pivotTable.addRowLabel(0); // set first column as 1-th level of rows
-		pivotTable.addRowLabel(1); // set second column of source as 2-th level of rows
-		setFormatPivotField(pivotTable, 3, 9); //set format numFmtId=9 0%
+		pivotTable.addRowLabel(1); // set second column as 1-th level of rows
+		setFormatPivotField(pivotTable, 1, 9); //set format numFmtId=9 0%
+		pivotTable.addRowLabel(0); // set first column as 2-th level of rows
 		pivotTable.addColumnLabel(DataConsolidateFunction.SUM, 2); // Sum up the second column
-		setFormatDataField(pivotTable, 2, 4); //numFmtId=4 #,##0.00
+		setFormatDataField(pivotTable, 2, 3); //numFmtId=3 # ##0
 
-		FileOutputStream fileOut = new FileOutputStream("custom-pivottable.xlsx");
+		FileOutputStream fileOut = new FileOutputStream("stackoverflow-pivottable.xlsx");
 		wb.write(fileOut);
 		fileOut.close();
 		wb.close();
