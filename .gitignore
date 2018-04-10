@@ -47,4 +47,5 @@ fabric.properties
 
 .gitignore
 ~$*.xlsx
-/*.xlsx
+.idea/
+target/
