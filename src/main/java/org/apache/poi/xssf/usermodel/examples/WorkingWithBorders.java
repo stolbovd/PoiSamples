@@ -23,6 +23,9 @@ import org.apache.poi.ss.usermodel.*;
 
 import java.io.FileOutputStream;
 
+import static org.apache.poi.hssf.record.cf.BorderFormatting.BORDER_MEDIUM_DASHED;
+import static org.apache.poi.hssf.record.cf.BorderFormatting.BORDER_THIN;
+
 /**
  * Working with borders
  */
@@ -40,13 +43,13 @@ public class WorkingWithBorders {
 
         // Style the cell with borders all around.
         CellStyle style = wb.createCellStyle();
-        style.setBorderBottom(CellStyle.BORDER_THIN);
+        style.setBorderBottom(BorderStyle.THIN);
         style.setBottomBorderColor(IndexedColors.BLACK.getIndex());
-        style.setBorderLeft(CellStyle.BORDER_THIN);
+        style.setBorderLeft(BorderStyle.THIN);
         style.setLeftBorderColor(IndexedColors.GREEN.getIndex());
-        style.setBorderRight(CellStyle.BORDER_THIN);
+        style.setBorderRight(BorderStyle.THIN);
         style.setRightBorderColor(IndexedColors.BLUE.getIndex());
-        style.setBorderTop(CellStyle.BORDER_MEDIUM_DASHED);
+        style.setBorderTop(BorderStyle.MEDIUM_DASHED);
         style.setTopBorderColor(IndexedColors.BLACK.getIndex());
         cell.setCellStyle(style);
 

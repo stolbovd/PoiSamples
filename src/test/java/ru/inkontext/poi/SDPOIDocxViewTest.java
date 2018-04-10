@@ -1,29 +1,41 @@
 package ru.inkontext.poi;
 
-import org.junit.After;
+import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import java.io.FileInputStream;
+import java.util.HashMap;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import static ru.inkontext.poi.SDPOIDocxView.hasText;
 
 public class SDPOIDocxViewTest {
 
 	@Before
 	public void setUp() throws Exception {
-	}
+		SDPOIDocxView docxView = new SDPOIDocxView("docx/template.docx");
 
-	@After
-	public void tearDown() throws Exception {
+		docxView.replace(new HashMap<String, String>() {{
+			put("Hello", "Lorem");
+			put("world", "ipsum");
+			put("Table cell", "Inside table");
+		}});
+
+		docxView.writeAndClose("result.docx");
 	}
 
 	@Test
-	public void main() {
-		createDocx("result", new POITemplateView());
+	public void replaceParagraphTest() throws Exception {
 
-		assertTrue(hasText(document, "Привет"));
-		assertTrue(hasText(document, "Ячейка таблицы"));
-		assertTrue(hasText(document, "мир id = 5"));
+		XWPFDocument document = new XWPFDocument(new FileInputStream("result.docx"));
+
+		assertTrue(hasText(document, "Lorem"));
+		assertTrue(hasText(document, "Inside table"));
+		assertTrue(hasText(document, "ipsum"));
 		assertFalse(hasText(document, "world"));
+
+		document.close();
 	}
 }

@@ -63,7 +63,7 @@ public class CellComments {
         Font font = wb.createFont();
         font.setFontName("Arial");
         font.setFontHeightInPoints((short)14);
-        font.setBoldweight(Font.BOLDWEIGHT_BOLD);
+        font.setBold(true);
         font.setColor(IndexedColors.RED.getIndex());
         str2.applyFont(font);
 

@@ -16,6 +16,7 @@
 ==================================================================== */
 package org.apache.poi.xssf.usermodel.examples;
 
+import org.apache.poi.ss.SpreadsheetVersion;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.util.AreaReference;
 import org.apache.poi.ss.util.CellReference;
@@ -53,7 +54,7 @@ public class CreateTable {
         
         //Set which area the table should be placed in
         AreaReference reference = new AreaReference(new CellReference(0, 0), 
-                new CellReference(2,2));
+                new CellReference(2,2), SpreadsheetVersion.EXCEL2007);
         cttable.setRef(reference.formatAsString());
         cttable.setId(1);
         cttable.setName("Test");

@@ -16,12 +16,14 @@
 ==================================================================== */
 package org.apache.poi.xssf.usermodel.examples;
 
-import java.io.FileOutputStream;
-
 import org.apache.poi.ss.usermodel.*;
-import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.xssf.usermodel.XSSFRichTextString;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.FileOutputStream;
+
+import static org.apache.poi.ss.usermodel.FillPatternType.BIG_SPOTS;
+import static org.apache.poi.ss.usermodel.FillPatternType.SOLID_FOREGROUND;
 
 /**
  * Fills and Colors
@@ -37,7 +39,7 @@ public class FillsAndColors {
         // Aqua background
         CellStyle style = wb.createCellStyle();
         style.setFillBackgroundColor(IndexedColors.AQUA.getIndex());
-        style.setFillPattern(CellStyle.BIG_SPOTS);
+        style.setFillPattern(BIG_SPOTS);
         Cell cell = row.createCell(1);
         cell.setCellValue(new XSSFRichTextString("X"));
         cell.setCellStyle(style);
@@ -45,7 +47,7 @@ public class FillsAndColors {
         // Orange "foreground", foreground being the fill foreground not the font color.
         style = wb.createCellStyle();
         style.setFillForegroundColor(IndexedColors.ORANGE.getIndex());
-        style.setFillPattern(CellStyle.SOLID_FOREGROUND);
+        style.setFillPattern(SOLID_FOREGROUND);
         cell = row.createCell(2);
         cell.setCellValue(new XSSFRichTextString("X"));
         cell.setCellStyle(style);
