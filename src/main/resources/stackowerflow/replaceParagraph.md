@@ -36,5 +36,5 @@ There is the `replaceParagraph` implementation that replace `${key}` with `value
 
 [Unit test][2]
 
-  [1]: https://github.com/stolbovd/PoiSamples/blob/master/src/test/java/ru/inkontext/poi/SDPOIDocxView.java
-  [2]: https://github.com/stolbovd/PoiSamples/blob/master/src/main/java/ru/inkontext/poi/SDPOIDocxViewTest.java
+  [1]: https://github.com/stolbovd/PoiSamples/blob/master/src/main/java/ru/inkontext/poi/SDPOIDocxView.java
+  [2]: https://github.com/stolbovd/PoiSamples/blob/master/src/test/java/ru/inkontext/poi/SDPOIDocxViewTest.java
