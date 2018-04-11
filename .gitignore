@@ -3,3 +3,4 @@
 ~$*.docx
 .idea/
 target/
+/result.docx
