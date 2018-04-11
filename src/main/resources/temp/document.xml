@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+            xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+            mc:Ignorable="w14 w15 w16se w16cid wp14">
+	<w:body>
+		<w:p w14:paraId="490B2214" w14:textId="7450CABB" w:rsidR="00D73301" w:rsidRPr="00AD214B"
+		     w:rsidRDefault="00444AF9">
+			<w:pPr>
+				<w:rPr>
+					<w:b/>
+					<w:lang w:val="en-US"/>
+				</w:rPr>
+			</w:pPr>
+			<w:r>
+				<w:rPr>
+					<w:lang w:val="en-US"/>
+				</w:rPr>
+				<w:t>Text</w:t>
+			</w:r>
+			<w:r w:rsidR="00520C27">
+				<w:t xml:space="preserve"> </w:t>
+			</w:r>
+			<w:r w:rsidR="006D5F20" w:rsidRPr="0043302B">
+				<w:rPr>
+					<w:u w:val="single"/>
+					<w:lang w:val="en-US"/>
+				</w:rPr>
+				<w:t>${Hello}</w:t>
+			</w:r>
+			<w:r w:rsidR="006D5F20">
+				<w:rPr>
+					<w:lang w:val="en-US"/>
+				</w:rPr>
+				<w:t xml:space="preserve"> </w:t>
+			</w:r>
+			<w:r w:rsidR="00520C27">
+				<w:rPr>
+					<w:lang w:val="en-US"/>
+				</w:rPr>
+				<w:t xml:space="preserve">25 </w:t>
+			</w:r>
+			<w:r w:rsidR="006D5F20" w:rsidRPr="0043302B">
+				<w:rPr>
+					<w:b/>
+					<w:lang w:val="en-US"/>
+				</w:rPr>
+				<w:t>$</w:t>
+			</w:r>
+			<w:bookmarkStart w:id="0" w:name="_GoBack"/>
+			<w:bookmarkEnd w:id="0"/>
+			<w:r w:rsidR="006D5F20" w:rsidRPr="0043302B">
+				<w:rPr>
+					<w:b/>
+					<w:lang w:val="en-US"/>
+				</w:rPr>
+				<w:t>{world}</w:t>
+			</w:r>
+			<w:r w:rsidR="00AD214B">
+				<w:rPr>
+					<w:b/>
+					<w:lang w:val="en-US"/>
+				</w:rPr>
+				<w:t xml:space="preserve"> </w:t>
+			</w:r>
+			<w:r>
+				<w:rPr>
+					<w:lang w:val="en-US"/>
+				</w:rPr>
+				<w:t>share</w:t>
+			</w:r>
+		</w:p>
+		<w:p w14:paraId="4B272997" w14:textId="77777777" w:rsidR="00CC4467"
+		     w:rsidRDefault="00CC4467">
+			<w:pPr>
+				<w:rPr>
+					<w:lang w:val="en-US"/>
+				</w:rPr>
+			</w:pPr>
+		</w:p>
+		<w:tbl>
+			<w:tblPr>
+				<w:tblStyle w:val="a3"/>
+				<w:tblW w:w="0" w:type="auto"/>
+				<w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1"
+				           w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+			</w:tblPr>
+			<w:tblGrid>
+				<w:gridCol w:w="2334"/>
+				<w:gridCol w:w="2335"/>
+				<w:gridCol w:w="2335"/>
+				<w:gridCol w:w="2335"/>
+			</w:tblGrid>
+			<w:tr w:rsidR="005146AA" w14:paraId="66CCE7E1" w14:textId="77777777"
+			      w:rsidTr="005146AA">
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2334" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="387354E8" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="3B8D13F6" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="2E438961" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="6FFA0CE0" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+			</w:tr>
+			<w:tr w:rsidR="005146AA" w14:paraId="1E699181" w14:textId="77777777"
+			      w:rsidTr="005146AA">
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2334" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="5DE8A257" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="40A8CA42" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRPr="00AF46C0" w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+							<w:t>${Table cell}</w:t>
+						</w:r>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="266419F9" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="694530AF" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+			</w:tr>
+			<w:tr w:rsidR="005146AA" w14:paraId="68B1988C" w14:textId="77777777"
+			      w:rsidTr="005146AA">
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2334" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="52FFB2DE" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="367DC08C" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="115082CB" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="58B6679B" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+			</w:tr>
+			<w:tr w:rsidR="005146AA" w14:paraId="167513CA" w14:textId="77777777"
+			      w:rsidTr="005146AA">
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2334" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="00361AA4" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="36A8A8A5" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="7F5A9C14" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="2335" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w14:paraId="5222A732" w14:textId="77777777" w:rsidR="005146AA"
+					     w:rsidRDefault="005146AA">
+						<w:pPr>
+							<w:rPr>
+								<w:lang w:val="en-US"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+			</w:tr>
+		</w:tbl>
+		<w:p w14:paraId="2484F211" w14:textId="77777777" w:rsidR="00CC4467" w:rsidRPr="00CC4467"
+		     w:rsidRDefault="00CC4467">
+			<w:pPr>
+				<w:rPr>
+					<w:lang w:val="en-US"/>
+				</w:rPr>
+			</w:pPr>
+		</w:p>
+		<w:sectPr w:rsidR="00CC4467" w:rsidRPr="00CC4467" w:rsidSect="00B253A2">
+			<w:pgSz w:w="11900" w:h="16840"/>
+			<w:pgMar w:top="1134" w:right="850" w:bottom="1134" w:left="1701" w:header="708"
+			         w:footer="708" w:gutter="0"/>
+			<w:cols w:space="708"/>
+			<w:docGrid w:linePitch="360"/>
+		</w:sectPr>
+	</w:body>
+</w:document>
