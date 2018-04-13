@@ -79,7 +79,8 @@ class SDPOIDocxView {
 			for (int i = 0; i < runs.size(); i++) {
 				run = runs.get(i);
 				runsText = run.getText(0);
-				if (runsText.contains("${")) {
+				if (runsText.contains("${") ||
+						(runsText.contains("$") && runs.get(i + 1).getText(0).substring(0, 1).equals("{"))) {
 					while (!runsText.contains("}")) {
 						nextRun = runs.get(i + 1);
 						runsText = runsText + nextRun.getText(0);
