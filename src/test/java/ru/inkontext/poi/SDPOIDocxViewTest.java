@@ -21,6 +21,9 @@ public class SDPOIDocxViewTest {
 			put("Hello", "Lorem");
 			put("world", "ipsum");
 			put("Table cell", "Inside table");
+			put("together1", "replaced1");
+			put("together2", "replaced2");
+			put("together3", "replaced3");
 		}});
 
 		docxView.writeAndClose("result.docx");
@@ -34,7 +37,9 @@ public class SDPOIDocxViewTest {
 		assertTrue(hasText(document, "Lorem"));
 		assertTrue(hasText(document, "Inside table"));
 		assertTrue(hasText(document, "ipsum"));
+		assertTrue(hasText(document, "ipsum"));
 		assertFalse(hasText(document, "world"));
+		assertTrue(hasText(document, "replaced2"));
 
 		document.close();
 	}

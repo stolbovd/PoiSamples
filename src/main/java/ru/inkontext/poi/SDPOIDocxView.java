@@ -81,7 +81,7 @@ class SDPOIDocxView {
 				runsText = run.getText(0);
 				if (runsText.contains("${") ||
 						(runsText.contains("$") && runs.get(i + 1).getText(0).substring(0, 1).equals("{"))) {
-					while (!runsText.contains("}")) {
+					while (!openTagCountIsEqualCloseTagCount(runsText)) {
 						nextRun = runs.get(i + 1);
 						runsText = runsText + nextRun.getText(0);
 						paragraph.removeRun(i + 1);
@@ -92,5 +92,14 @@ class SDPOIDocxView {
 				}
 			}
 		}
+	}
+
+	//As the next run may has a closed tag and an open tag at
+	//the same time, we have to be sure that our building string
+	//has a fully completed tags
+	private boolean openTagCountIsEqualCloseTagCount(String runText) {
+		int openTagCount = runText.split("\\$\\{", -1).length - 1;
+		int closeTagCount = runText.split("}", -1).length - 1;
+		return openTagCount == closeTagCount;
 	}
 }
